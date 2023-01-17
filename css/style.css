@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+}
+.contenedor-principal{
+    display: flex;
+    text-align: center;
+}
+
+.contenedor-izquierdo{
+    background-color: gainsboro;
+    max-width: 40%;
+}
+
+.contenedor-perfil{
+    padding: 1em;
+    margin: 1em;
+}
+
+.redes-sociales{
+    padding: 1em;
+}
+
+.menu a{
+    display: block;
+    margin: 1em;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.contenedor.derecha{
+    max-width: 60%;
+}
