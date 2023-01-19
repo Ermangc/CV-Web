@@ -1,14 +1,17 @@
-*{
+* {
     margin: 0%;
 }
 .contenedor-principal{
     display: flex;
     text-align: center;
+    height: 99vh;
+    width: 100vw;
 }
 
 .contenedor-izquierdo{
     background-color: gainsboro;
     max-width: 40%;
+    
 }
 
 .contenedor-perfil{
@@ -28,6 +31,38 @@
     letter-spacing: 2px;
 }
 
-.contenedor.derecha{
+.contenedor-derecha{
     max-width: 60%;
+}
+
+.contenedor-derecha img {
+    width: 72vw;
+    height: 99vh;
+}
+
+
+.typing-demo{
+    color: beige;
+    text-shadow: 2px 2px 2px black;
+    z-index: 2;
+    position: absolute;
+    top: 25%;
+    right: 35%;
+    width: 22ch;
+    animation: typing 3s steps(22), blink .5s forwards infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
