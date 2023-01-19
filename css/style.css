@@ -31,13 +31,18 @@
     letter-spacing: 2px;
 }
 
-.contenedor-derecha{
+.contenedor-link{
     max-width: 60%;
 }
 
-.contenedor-derecha img {
-    width: 72vw;
+.contenedor-link iframe {
+    width: 73vw;
     height: 99vh;
+}
+
+.contenedor-derecha img {
+    width: 100vw;
+    height: 100vh;
 }
 
 
