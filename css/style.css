@@ -1,5 +1,8 @@
-* {
+body {
     margin: 0%;
+    padding: 0%;
+    height: 99vh;
+    width: 100vw;
 }
 .contenedor-principal{
     display: flex;
@@ -10,7 +13,7 @@
 
 .contenedor-izquierdo{
     background-color: gainsboro;
-    max-width: 40%;
+    max-width: 25%;
     
 }
 
@@ -32,7 +35,8 @@
 }
 
 .contenedor-link{
-    max-width: 60%;
+    max-width: 65%;
+    max-height: 99vh;
 }
 
 .contenedor-link iframe {
@@ -43,6 +47,11 @@
 .contenedor-derecha img {
     width: 100vw;
     height: 100vh;
+}
+
+.copyright{
+    background-color: rgba(190, 190, 190, 0.822);
+    padding: 0.8em;
 }
 
 
