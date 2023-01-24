@@ -36,12 +36,14 @@ body {
 
 .contenedor-link{
     max-width: 65%;
-    max-height: 99vh;
+    max-height: 100vh;
 }
 
 .contenedor-link iframe {
-    width: 73vw;
-    height: 99vh;
+    width: 75vw;
+    height: 99.3vh;
+    border: none;
+    margin: 0%;
 }
 
 .contenedor-derecha img {
