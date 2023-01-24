@@ -34,6 +34,11 @@ body {
     letter-spacing: 2px;
 }
 
+.menu a:hover {
+    text-decoration: underline black;
+    text-shadow: 3px 3px 3px ghostwhite;
+}
+
 .contenedor-link{
     max-width: 65%;
     max-height: 100vh;
@@ -44,6 +49,7 @@ body {
     height: 99.3vh;
     border: none;
     margin: 0%;
+    
 }
 
 .contenedor-derecha img {
