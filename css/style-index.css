@@ -26,7 +26,8 @@ body {
     padding: 1em;
 }
 
-.menu a{
+
+.menu a , .redes-sociales{
     display: block;
     margin: 1em;
     text-decoration: none;
@@ -34,7 +35,7 @@ body {
     letter-spacing: 2px;
 }
 
-.menu a:hover {
+.menu a:hover, .redes-sociales:hover{
     text-decoration: underline black;
     text-shadow: 3px 3px 3px ghostwhite;
 }
@@ -55,6 +56,24 @@ body {
 .contenedor-derecha img {
     width: 100vw;
     height: 100vh;
+}
+
+#div-oculto { 
+    display: none;
+}
+
+#div-oculto a {
+    color: black;
+    text-decoration: none;
+    padding: 0.3em;
+    margin: 1px;
+}
+
+#div-oculto button{
+    border: none;
+    background: none;
+    color: crimson;
+    margin-top: 10px;
 }
 
 .copyright{
