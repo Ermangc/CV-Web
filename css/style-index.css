@@ -1,25 +1,23 @@
 body {
     margin: 0%;
     padding: 0%;
-    height: 99vh;
-    width: 100vw;
 }
 .contenedor-principal{
     display: flex;
     text-align: center;
-    height: 99vh;
+    height: 100vh;
     width: 100vw;
 }
 
 .contenedor-izquierdo{
     background-color: gainsboro;
     max-width: 25%;
-    
+    max-height: 100vh;
 }
 
 .contenedor-perfil{
-    padding: 1em;
-    margin: 1em;
+    padding: 0.5em;
+    margin: 0.5em;
 }
 
 .redes-sociales{
@@ -42,12 +40,12 @@ body {
 
 .contenedor-link{
     max-width: 65%;
-    max-height: 100vh;
+    max-height: 100%;
 }
 
 .contenedor-link iframe {
     width: 75vw;
-    height: 99.3vh;
+    height: 100vh;
     border: none;
     margin: 0%;
     
@@ -78,7 +76,7 @@ body {
 
 .copyright{
     background-color: rgba(190, 190, 190, 0.822);
-    padding: 0.8em;
+    padding: 0.5em;
 }
 
 

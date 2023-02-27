@@ -1,7 +1,7 @@
 body{ 
     margin: 0%;
     padding: 0%;
-    background-image: url("/img/Fondo\ de\ los\ otros\ html.jpg");
+    background-image: linear-gradient(to right top, #6482a1, #5f7b9e, #5a749b, #576d98, #556694);
     background-size: cover;
     display: flex;
     flex-direction: column;
